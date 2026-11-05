@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 
-// IMPORTANT: Change this to your actual GitHub repo name
-const REPO_NAME = 'living-archive';
+const REPO_NAME = 'living_achive'; // matches github.com/maxwelmwala0888/living_achive
 
 export default defineConfig({
   base: process.env.GITHUB_ACTIONS ? `/${REPO_NAME}/` : '/',
