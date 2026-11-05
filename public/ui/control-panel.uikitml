@@ -1,0 +1,52 @@
+<style>
+  .panel-root {
+    flex-direction: column;
+    gap: 12;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #18181b;
+    border-radius: 12;
+    border-width: 1;
+    border-color: #3f3f46;
+    width: 280px;
+  }
+  .title {
+    font-size: 20px;
+    color: #fafafa;
+    margin-bottom: 8px;
+  }
+  .action-button {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border-radius: 8;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .action-button:hover {
+    background-color: #2563eb;
+  }
+  .secondary-button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #27272a;
+    color: #d4d4d8;
+    border-radius: 8;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .secondary-button:hover {
+    background-color: #3f3f46;
+  }
+</style>
+
+<Panel class="panel-root">
+  <h1 class="title">The Living Archive</h1>
+  <button id="talk-button" class="action-button">🎤 Talk to the Archive</button>
+  <button id="new-seed-button" class="secondary-button">🌱 New Seed</button>
+</Panel>
